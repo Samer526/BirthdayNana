@@ -1,5 +1,19 @@
 body {
-	/*background-color: #FFDAB9;	*/
+	/*background-
+	
+	color: #FFDAB9;	*/
+
+
+	.final-photo {
+  display: none;              /* مخفية بالبداية */
+  max-width: 90%;             /* تتناسب مع حجم الشاشة */
+  height: auto;               /* تحافظ على النسبة */
+  margin: 20px auto;          /* وسط الصفحة */
+  border-radius: 15px;        /* زوايا مدورة */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  display: block;             /* تضمن أنها تظهر كسطر مستقل */
+}
+
 	background-color: #000;
 	-webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
